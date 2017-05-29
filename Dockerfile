@@ -1,4 +1,4 @@
-FROM node:6.10.3-alpine
+FROM node:6.10.3
 ADD . /prerender
 EXPOSE 3000
 WORKDIR /prerender
